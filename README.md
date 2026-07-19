@@ -186,11 +186,9 @@ time-series-air-quality-nairobi/
 
 Mathematics Tutor | Data Science Enthusiast
 
-LinkedIn:
-https://www.linkedin.com/in/luzuko-nzayo-729735104/#:~:text=www.linkedin.com/in/luzuko%2Dnzayo%2D729735104
-
-GitHub:
-https://github.com/LNzayo
+### 🔗 Connect
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LNzayo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/luzuko-nzayo-729735104)
 
 ---
 
@@ -200,4 +198,5 @@ This project was completed as part of the
 
 **WorldQuant University**
 Applied Data Science Program.
+⭐ **Star this repository if you found it useful!**
 
