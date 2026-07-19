@@ -1,0 +1,52 @@
+# 📊 Key Insights
+
+- Historical PM2.5 measurements exhibited temporal dependence, indicating that previous observations contain valuable information for forecasting future air quality levels.
+- Visual inspection of the time series revealed fluctuations in pollution concentrations over time, highlighting the importance of time series analysis for environmental monitoring.
+- Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) analyses identified statistically significant relationships between current and previous observations, supporting the use of autoregressive models.
+- A chronological train-test split preserved the temporal order of the data, preventing information leakage and ensuring realistic model evaluation.
+- The persistence (naïve) baseline established a benchmark for forecasting performance and provided a meaningful point of comparison.
+- Both the Autoregressive (AR) and ARMA models captured temporal dependencies more effectively than the baseline, demonstrating the value of statistical time series models for short-term air quality forecasting.
+
+---
+
+# 🔍 Findings
+
+- The dataset required preprocessing, including timestamp conversion, chronological sorting, and preparation for time series analysis.
+- Exploratory Data Analysis (EDA) revealed substantial variation in PM2.5 concentrations throughout the observation period.
+- The Autoregressive (AR) model successfully leveraged historical PM2.5 measurements to generate short-term forecasts.
+- The ARMA model incorporated both autoregressive and moving-average components, enabling it to model additional patterns present in the data.
+- Model performance was evaluated using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and the persistence baseline.
+- The statistical forecasting models demonstrated improved predictive capability over the naïve baseline, illustrating the benefits of exploiting temporal dependencies in environmental data.
+
+---
+
+# ✅ Conclusion
+
+This project demonstrated an end-to-end time series forecasting workflow using Nairobi PM2.5 air quality data. The data were successfully loaded from MongoDB, cleaned, explored, and transformed into a format suitable for statistical modeling.
+
+A persistence baseline, an Autoregressive (AR) model, and an ARMA model were developed and evaluated to forecast future PM2.5 concentrations. The results demonstrated that statistical time series models can effectively utilize historical observations to improve short-term forecasting performance compared with a simple persistence approach.
+
+Beyond forecasting accuracy, this project provided practical experience in data wrangling, exploratory data analysis, statistical modeling, model evaluation, and reproducible data science workflows. These skills are fundamental for developing predictive models in environmental monitoring and other real-world time series applications.
+
+Future improvements to this project could include:
+
+- Extending the analysis using ARIMA and SARIMA models to capture trends and seasonality.
+- Incorporating additional environmental variables such as temperature, humidity, and wind speed.
+- Evaluating advanced forecasting techniques, including Facebook Prophet and Long Short-Term Memory (LSTM) neural networks.
+- Deploying the forecasting model through a web application or API to support real-time air quality monitoring and decision-making.
+
+---
+
+# 🛠️ Skills Demonstrated
+
+- Time Series Analysis
+- Data Wrangling with Pandas
+- MongoDB Data Management
+- Exploratory Data Analysis (EDA)
+- Statistical Forecasting
+- Autoregressive (AR) Modeling
+- ARMA Modeling
+- Forecast Evaluation (MAE, RMSE)
+- Python Programming
+- Data Visualization
+- Reproducible Data Science Workflows
